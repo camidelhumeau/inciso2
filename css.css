@@ -1,0 +1,44 @@
+/**
+Autor: Ana Camila Nambo Delhumeau 
+Programa: index.html 
+Fecha: 05/02/2025 
+Lenguaje: html 
+**/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #c2085f;
+  margin: 0;
+}
+
+
+nav {
+  background: #090611;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+}
+
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+  width: 100%;
+  display: block;
+}
